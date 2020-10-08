@@ -1,0 +1,7 @@
+dependencies:
+- name: prometheus-operator
+  version: 9.3.2
+  repository: https://kubernetes-charts.storage.googleapis.com
+  #https://github.com/helm/charts/stable
+  #/tree/master/stable
+  #https://prometheus-community.github.io/helm-charts
