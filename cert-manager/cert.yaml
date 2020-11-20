@@ -3,6 +3,8 @@ kind: Certificate
 metadata:
   name: example-com
   namespace: sandbox
+  annotations:
+    argocd.argoproj.io/hook: PreSync    
 spec:
   # Secret names are always required.
   secretName: example-com-tls
