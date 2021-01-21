@@ -1,4 +1,4 @@
-#namePrefix: kustomize-
+namePrefix: kustomize-
 
 resources:
 - namespace-install.yaml
