@@ -1,0 +1,28 @@
+[
+  {
+    "account": "123456",
+    "asset_id": "11223344",
+    "cluster": {
+      "owner": "Jesse_Suen@intuit.com",
+      "name": "engineering-dev",
+      "address": "http://1.2.3.4"
+    },
+    "appVersions": {
+      "prometheus-operator": "v0.38",
+      "guestbook": "v2.0"
+    }
+  },
+  {
+    "account": "456789",
+    "asset_id": "55667788",
+    "cluster": {
+      "owner": "Alexander_Matyushentsev@intuit.com",
+      "name": "engineering-prod",
+      "address": "http://2.4.6.8"
+    },
+    "appVersions": {
+      "prometheus-operator": "v0.38",
+      "guestbook": "v1.0"
+    }
+  }
+]
